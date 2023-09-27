@@ -1,0 +1,8 @@
+POST http://localhost:8080/api/transacoes/inserir
+Content-Type: application/json
+{
+"descricao": "Feito uma Compra",
+"valor": 39.4,
+"data_transacao": "2023-09-21 00:00:00.000",
+"tipo_transacao":"Compra"
+}
